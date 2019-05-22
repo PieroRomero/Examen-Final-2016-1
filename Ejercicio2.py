@@ -14,11 +14,11 @@ print("Ahora pasará a ordenarse de forma ascendente")
 print("...")
 
 #Ordenar
-maxim = D[0]
+minim = D[0]
 for e in range(len(D)):
-    if e > maxim:
-        e = maxim
+    if e < minim:
+        e = minim
 
-
+    
 
 
