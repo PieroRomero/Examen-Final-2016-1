@@ -14,12 +14,18 @@ print("Ahora pasará a ordenarse de forma ascendente")
 print("...")
 
 #Ordenar
+ND = []
+for u in range(len(D)):
+    minim = D[0]
+    for e in range(len(D)):
+        if D[e] < minim:
+            D[e] = minim
+    D.remove(minim)
+    ND.append(minim)
+
+print(ND)
 
 
-minim = D[0]
-for e in range(len(D)):
-    if D[e] < minim:
-        D[e] = minim
 
     
 
