@@ -8,4 +8,17 @@ while i < n:
     D.append(t)
     i = i + 1 
 
-print(D)
+#Mostrar el arreglo
+print("El arreglo creado es", D)
+print("Ahora pasará a ordenarse de forma ascendente")
+print("...")
+
+#Ordenar
+maxim = D[0]
+for e in range(len(D)):
+    if e > maxim:
+        e = maxim
+
+
+
+
